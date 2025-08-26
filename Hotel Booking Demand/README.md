@@ -4,8 +4,6 @@
 This project explores the **Hotel Booking Demand** dataset to uncover insights about booking patterns, cancellations, and customer behavior.  
 The analysis focuses on factors influencing cancellations and builds a predictive model to estimate the likelihood of a customer canceling their reservation.
 
-Dataset: [Hotel Booking Demand - Kaggle](https://www.kaggle.com/jessemostipak/hotel-booking-demand)  
-License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 ---
 
@@ -64,5 +62,8 @@ Key insights are detailed in the notebook, including:
 - The quarter with the highest cancellation rate.  
 - Lead times strongly correlated with cancellation likelihood.  
 ---
+
+Dataset: [Hotel Booking Demand - Kaggle](https://www.kaggle.com/jessemostipak/hotel-booking-demand)  
+License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
 
 
