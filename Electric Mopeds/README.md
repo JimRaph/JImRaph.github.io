@@ -79,5 +79,3 @@ Each record in the dataset represents a review of an electric bike with details 
 
 ---
 
-## 📂 Repository Structure
-
