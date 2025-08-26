@@ -53,3 +53,5 @@ The analysis aimed to answer the questions like:
 ---
 
 Dataset Source: DataCamp
+NOTE: This entire project was built on google colabs
+
