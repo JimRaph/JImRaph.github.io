@@ -1,4 +1,4 @@
-# 🗄️ Data Modeling with SQL: Building a Dimensional Data Pipeline  
+# Data Modeling with SQL: Building a Dimensional Data Pipeline  
 *Star and Snowflake Schema design for analytics on historical workstation sales data (1980–1996).*  
 
 ---
@@ -51,3 +51,4 @@ YEAR, FIRMNAME, FIVEFIRMID, FIRMID, CUSIPHEADERID, CUSIPHeaderName,
 CUSIPHISTORYID, CUSIPHistoryName, FOUND, FATE, ESTATE, SALES, EMPLOY,
 ZIP, LAT, LON, RANDD, PRODUCTS, PTYPES, SYSTEM, GRAPHIC, CEO, OWN,
 CPU, OS, APPS, COMM, MONITOR, DISK, MEMORY, BOARD
+
