@@ -1,4 +1,4 @@
-# 🤖 Ensemble Learning with Blending on Loan Data  
+# Ensemble Learning with Blending on Loan Data  
 *Using Decision Trees and KNN as base learners with Logistic Regression as the meta learner.*  
 
 ---
@@ -62,4 +62,5 @@ The dataset comes from [Kaggle Loan Data](https://www.kaggle.com/datasets/itssur
 - **EDA & Visualization:** Exploring dataset characteristics and communicating findings with plots.  
 
 ---
+
 
