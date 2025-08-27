@@ -35,10 +35,10 @@ I imported the dataset using the `sklearn.datasets.load_breast_cancer()` API for
 
 ### 🛠️ Tools & Libraries
 ```python
-from sklearn.datasets import load_breast_cancer
-from sklearn.preprocessing import StandardScaler
-from sklearn.decomposition import PCA
-import matplotlib.pyplot as plt
-import pandas as pd
-import numpy as np
+  sklearn
+  PCA
+  matplotlib
+  pandas
+  numpy
+
 
