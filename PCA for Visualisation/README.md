@@ -1,4 +1,4 @@
-## 🧪 Breast Cancer Dataset Visualization with PCA
+## Breast Cancer Dataset Visualization with PCA
 
 ### 📌 Overview
 In this project, I explored the use of **Principal Component Analysis (PCA)** to visualize datasets with high dimensionality that would otherwise be impossible to represent effectively in 2D or 3D space.  
@@ -41,3 +41,4 @@ from sklearn.decomposition import PCA
 import matplotlib.pyplot as plt
 import pandas as pd
 import numpy as np
+
