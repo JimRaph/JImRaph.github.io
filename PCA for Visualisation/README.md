@@ -34,11 +34,13 @@ I imported the dataset using the `sklearn.datasets.load_breast_cancer()` API for
 ---
 
 ### 🛠️ Tools & Libraries
-```python
-  sklearn
-  PCA
-  matplotlib
-  pandas
-  numpy
+```
+ - python
+ - sklearn
+ - PCA
+ - matplotlib
+ - pandas
+ - numpy
+
 
 
