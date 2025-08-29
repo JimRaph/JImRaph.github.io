@@ -1,24 +1,62 @@
-Building a Ml model to help a recipe site generate more traffic.
+# Recipe Popularity Prediction Project  
 
-process includes
+## Overview  
+This project was part of the **DataCamp Data Scientist Certification**. The goal was to build a machine learning model to help a recipe site company generate more traffic by predicting which recipes are likely to be **high traffic**.  
 
-Data Validation:
-Describe validation and cleaning steps for every column in the data
+The dataset contained recipe information with the following columns:  
+- `recipe`  
+- `calories`  
+- `carbohydrate`  
+- `sugar`  
+- `protein`  
+- `category`  
+- `servings`  
+- `high_traffic` (target variable)  
 
-Exploratory Analysis:
-Include two different graphics showing single variables only to demonstrate the characteristics of data
-Include at least one graphic showing two or more variables to represent the relationship between features
-Describe your findings
+---
 
-Model Development
-Include your reasons for selecting the models you use as well as a statement of the problem type
-Code to fit the baseline and comparison models
+## Instructions  
+1. Perform data cleaning to ensure the dataset is usable.  
+2. Conduct exploratory data analysis (EDA) to uncover insights about recipes and nutritional distribution.  
+3. Build and evaluate machine learning models to predict whether a recipe will be high traffic.  
+4. Provide business recommendations based on the model and insights from EDA.  
 
-Model Evaluation
-Describe the performance of the two models based on an appropriate metric
-Business Metrics
-Define a way to compare your model performance to the business
-Describe how your models perform using this approach
-Final summary including recommendations that the business should undertake
+---
 
-Dataset is from DataCamp
+## Data Cleaning  
+- Converted columns to have the correct data types.  
+- Handled missing values (applied both dropping and imputation where appropriate).  
+- Fixed irregularities in some recipe categories.  
+
+---
+
+## Exploratory Data Analysis (EDA)  
+The following questions were explored:  
+1. What is the distribution of recipes with protein?  
+2. What is the relationship between the types of recipes and carbohydrate content?  
+3. What type of recipe is the most frequent in the dataset?  
+4. Which type of recipe contains the highest **average calories**?  
+5. What is the distribution of sugar content across recipes?  
+6. What is the relationship between recipe types and servings?  
+
+---
+
+## Model Development  
+- **Logistic Regression** was used as the baseline model (evaluated with cross-validation).  
+- **Decision Tree Classifier** was also applied (with cross-validation).  
+
+The best performing model achieved an accuracy of **~80%**.  
+
+---
+
+## Recommendations  
+- The business should consider **deploying the model** to predict recipe popularity.  
+- Maintain nutrition distribution according to the **EDA findings** to maximize engagement.  
+- To reduce the chances of showing unpopular recipes:  
+  - Increase the threshold above the default **0.5**.  
+  - Note that increasing the threshold reduces the risk of showing unpopular recipes but also lowers recall.  
+- When new recipes are added, extend the `threshold_df` dataframe to include them. This allows easy selection of popular recipes with a simple query or table lookup.  
+- The recipes most likely to generate high traffic are contained in the **`recipes_to_high_traffic`** table.  
+
+---
+Dataset is from DataCamp.
