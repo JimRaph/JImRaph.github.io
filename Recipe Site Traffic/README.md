@@ -3,6 +3,8 @@
 ## Overview  
 This project was part of the **DataCamp Data Scientist Certification**. The goal was to build a machine learning model to help a recipe site company generate more traffic by predicting which recipes are likely to be **high traffic**.  
 
+<img width="702" height="492" alt="Screenshot 2025-08-29 195105" src="https://github.com/user-attachments/assets/16671e87-781b-4226-8112-2f6317432196" />
+
 The dataset contained recipe information with the following columns:  
 - `recipe`  
 - `calories`  
@@ -60,3 +62,4 @@ The best performing model achieved an accuracy of **~80%**.
 
 ---
 Dataset is from DataCamp.
+
