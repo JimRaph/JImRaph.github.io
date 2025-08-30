@@ -69,3 +69,4 @@ Two predictive approaches were developed:
 The project highlighted key behavioral patterns in EPL 2018/19 matches, such as the impact of red cards and the predictive power of halftime scores. Predictive modeling showed strong potential, especially with ensemble methods like Random Forest and Gradient Boosting.  
 
 This work demonstrates both **data analysis** and **machine learning modeling** skills applied to a real-world sports dataset.  
+
