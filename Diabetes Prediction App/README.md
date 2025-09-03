@@ -6,6 +6,10 @@ A **web application** for predicting the likelihood of diabetes using machine le
 
 ---
 
+![ai](https://github.com/user-attachments/assets/e3e581fd-fb80-41c4-9d58-7c267c2326aa)
+
+---
+
 ## 📌 Project Overview
 
 - The **frontend** collects user health information such as glucose level, BMI, insulin, etc., and sends it to the backend.  
@@ -41,7 +45,7 @@ A **web application** for predicting the likelihood of diabetes using machine le
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
+git clone https://github.com/JimRaph/Data-science-ML.git
 cd Diabetes_Prediction_App
 ```
 
