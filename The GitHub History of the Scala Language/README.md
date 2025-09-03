@@ -1,15 +1,34 @@
-Scala's real-world project repository data
+# The GitHub History of the Scala Language
 
-With almost 30k commits and a history spanning over ten years, Scala is a mature programming language. It is a general-purpose programming language that has recently become another prominent language for data scientists.
+This project analyzes the real-world development history of the **Scala programming language** using repository data mined from GitHub. With nearly **30,000 commits** spanning over a decade, Scala provides a rich dataset to study open-source software evolution, developer contributions, and project activity.
 
-Scala is also an open source project. Open source projects have the advantage that their entire development histories -- who made changes, what was changed, code reviews, etc. -- are publicly available.
+## 📌 Project Overview
 
-We're going to read in, clean up, and visualize the real world project repository of Scala that spans data from a version control system (Git) as well as a project hosting site (GitHub). We will find out who has had the most influence on its development and who are the experts.
+Scala is a **general-purpose programming language** that has become popular among data scientists. As an open-source project, its entire development history — including commits, pull requests, and code reviews — is publicly available.  
 
-The dataset we will use, which has been previously mined and extracted from GitHub, is comprised of three files:
+In this project, we worked with a dataset previously mined and extracted from GitHub to **clean, analyze, and visualize** insights about the Scala project.
 
-pulls_2011-2013.csv contains the basic information about the pull requests, and spans from the end of 2011 up to (but not including) 2014.
-pulls_2014-2018.csv contains identical information, and spans from 2014 up to 2018.
-pull_files.csv contains the files that were modified by each pull request.
+## 📂 Dataset
 
-Source: DataCamp
+The dataset contains three files:
+
+- **`pulls_2011-2013.csv`** – Information about pull requests from late 2011 up to (but not including) 2014.  
+- **`pulls_2014-2018.csv`** – Information about pull requests from 2014 to 2018.  
+- **`pull_files.csv`** – Details of files modified in each pull request.  
+
+**Source:** DataCamp
+
+## 🔍 Some Key Explorations
+
+- Determined **whether the project is still actively maintained**.  
+- Investigated **camaraderie and collaboration within the project community**.  
+- Identified **files changed in the last ten pull requests**.  
+- Visualized the **contributions of individual developers** over time.  
+
+## 🛠️ Tools & Technologies
+
+- **Python** – Data analysis and visualization  
+- **Pandas** – Data cleaning and manipulation  
+- **Matplotlib** – Visualization  
+
+---
